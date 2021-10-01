@@ -40,3 +40,11 @@ function add(...nums) {
 }
 
 add(4, 5, 6, 7)
+
+//Arrow functions
+function add2(...nums) {
+    let total = nums.reduce((x,y) => x+y);
+    console.log(total);
+}
+
+add2(4, 5, 6, 7)
